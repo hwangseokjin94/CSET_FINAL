@@ -50,6 +50,7 @@ backend technologies used in this project:
 ---------------------
 
 <h2>클래스 다이어그램</h2>
+![image](https://user-images.githubusercontent.com/59395774/88129141-4c4fd780-cc12-11ea-803a-a64bc3e4528c.png)
 
 ![image-20200722095845467](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20200722095845467.png)
 
