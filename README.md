@@ -170,18 +170,16 @@ public class MemberLoginCommand implements CsetCommand {
     <li>회원테이블  주문테이블 상품테이블을 조인을 함.</li>
     <li>joinVO생성</li>
 </ul>
-<img src="" width="80%">
+
 <img src="https://user-images.githubusercontent.com/59395774/88129513-3db5f000-cc13-11ea-95dc-531c53f69e8f.png" width="80%">
+<img src="https://user-images.githubusercontent.com/59395774/88129581-63db9000-cc13-11ea-99c5-3e4a5a9c09ef.png" width="80%">
 
-![image-20200722103123563](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20200722103123563.png)
-
-![image-20200722103126327](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20200722103126327.png)
 
 -------
 
 멤버 주요기능 1.
+<img src="https://user-images.githubusercontent.com/59395774/88129623-7fdf3180-cc13-11ea-91ba-0a800177d945.png" width="80%">
 
-![image-20200722103444891](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20200722103444891.png)
 
 ​    
 
@@ -219,7 +217,8 @@ public class MemberLoginCommand implements CsetCommand {
 
 관리자
 
-![image-20200722104103570](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20200722104103570.png)
+<img src="https://user-images.githubusercontent.com/59395774/88129689-b026d000-cc13-11ea-9ce5-82e23508636e.png" width="80%">
+
 
 회원목록에서 체크박스를 선택한후의 회원삭제를 누르게되면  ajax를 통하여 데이터에스 회원제거
 
@@ -306,8 +305,9 @@ $(document).ready(function(){
 ------
 
 관리자가 회원의 등급과 포인트지급
+<img src="https://user-images.githubusercontent.com/59395774/88129742-ccc30800-cc13-11ea-86e4-dd803f57d56a.png" width="80%">
 
-![image-20200722104921824](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20200722104921824.png)
+
 
 ```java
 //ajax통신을하기위해서는 @ResponseBody 와 produces의 방식을 꼭 입력을 해야됨.
@@ -400,8 +400,8 @@ $(document).ready( function(){
 	});//btn
  });//end
 ```
+<img src="https://user-images.githubusercontent.com/59395774/88129776-e1070500-cc13-11ea-90da-bbe190d52df3.png" width="80%">
 
-![image-20200722105829986](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20200722105829986.png)
 
 ```jsp
 <div class="admin-prod wrap">
