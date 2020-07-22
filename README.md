@@ -158,8 +158,8 @@ public class MemberLoginCommand implements CsetCommand {
 
 }
 ```
+<img src="https://user-images.githubusercontent.com/59395774/88129448-1c550400-cc13-11ea-915e-31412db5a669.png" width="80%">
 
-![image-20200722102702703](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20200722102702703.png)
 
 -----
 
@@ -170,7 +170,8 @@ public class MemberLoginCommand implements CsetCommand {
     <li>회원테이블  주문테이블 상품테이블을 조인을 함.</li>
     <li>joinVO생성</li>
 </ul>
-
+<img src="" width="80%">
+<img src="https://user-images.githubusercontent.com/59395774/88129513-3db5f000-cc13-11ea-95dc-531c53f69e8f.png" width="80%">
 
 ![image-20200722103123563](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20200722103123563.png)
 
