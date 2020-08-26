@@ -174,6 +174,9 @@
                      </td>                  
                   </tr>
             </c:forEach>
+            <tr>
+            	<td colspan="9"> ${pageView }</td>
+            </tr>
          </c:if>
    </tbody>
 

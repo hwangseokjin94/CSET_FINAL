@@ -44,6 +44,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
       ORDER BY PNO DESC
    </select>
    
+   
    <select id="productsOrderByDynamic" resultType="com.koreait.cset.dto.ProductsDTO">
       SELECT PNO, PNAME, PFILENAME, PPRICE, PCATEGORY, PCATEGORY_SUB, PBRAND,( SELECT AVG( RRATING ) FROM REVIEWS R WHERE P.PNO = R.PNO ) AS PRATING, PDISRATE
       FROM PRODUCTS P
@@ -89,8 +90,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
          <when test="searchOrderBy == 'pNoDesc' ">PNO DESC</when>
          <when test="searchOrderBy == 'pPriceDesc' ">PPRICE DESC</when>
          <when test="searchOrderBy == 'pPriceAsc' ">PPRICE ASC</when>
-         <when test="searchOrderBy == 'pRatingDesc' ">( SELECT AVG( RRATING ) FROM REVIEWS R WHERE P.PNO = R.PNO ) DESC</when>
-      </choose>
+         <when test="searchOrderBy == 'pRatingDesc' ">NVL(( SELECT AVG( RRATING ) FROM REVIEWS R WHERE P.PNO = R.PNO ),0) DESC</when>
+      </choose>						   	
       </if>
    </select>
    

@@ -13,6 +13,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.ui.Model;
 
 import com.koreait.cset.common.CsetCommand;
+import com.koreait.cset.common.PageMaker;
 import com.koreait.cset.dao.MemberDAO;
 import com.koreait.cset.dto.MemberDTO;
 import com.koreait.cset.dto.ProductsDTO;
@@ -32,6 +33,7 @@ public class MemberProductListCommand implements CsetCommand {
 		session=request.getSession();
 		MemberDTO loginDTO = (MemberDTO)session.getAttribute("loginDTO");
 		String mId =loginDTO.getmId();
+		
 		if(mId.equals("ADMIN")) {			
 			model.addAttribute("plist",plist);
 			
